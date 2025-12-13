@@ -1,8 +1,15 @@
-# Q7 Write a program that takes a number as input and checks whether it is positive, negative, or zero.
-num=int(input("enter anumber"))
-if num>0:
-    print(f"{num} is positive number")
-elif num<0:
-    print(f"{num} is negative number")
+# Q6 Write a basic calculator program that takes two numbers and an operator (+, -, *, /) as input and
+# performs the specified operation. Print the result based on the operation.
+a=int(input("enter a number1 = "))
+b=int(input("enter a number2 = "))
+
+o=input("enter a arthmetic opertaor to perform operation ! = ")
+
+if o=='+':
+  print("a+b = ",a+b)
+elif o=='-':
+  print("a-b = ",a-b)
+elif o=='*':
+  print("a*b = ",a*b)
 else:
-    print(f"num is equal to '0'")        
+  print("a/b = ",a/b)
