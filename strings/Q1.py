@@ -1,0 +1,4 @@
+# 1. Given a string "Hello World", print the first 5 characters using slicing.
+a="hello world"
+print(a[0:])
+
