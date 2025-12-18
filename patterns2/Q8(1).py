@@ -1,5 +1,5 @@
 n=5
-temp=n
+temp=n-1
 for i in range(n):
     for j in range(temp): # for spaces
         print(" ",end=" ")
