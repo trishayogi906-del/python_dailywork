@@ -1,9 +1,5 @@
-# run for loop 60 to 170 and get the total of number along with divisble by 9
-sum=0
-count=0
-for i in range(60,171):
-    if i%9==0:
-        count+=1
-        sum+=i
-print(sum)  
-print(count)      
+# 3. Write a program to print all alphabets from a to z. – using while loop
+i=65
+while(i<=90): # assic value of z is 90
+    print(chr(i))
+    i+=1

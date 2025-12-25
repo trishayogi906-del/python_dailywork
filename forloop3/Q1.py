@@ -1,4 +1,6 @@
-# run loop 1 to 200 and print odd number using for loop
-for i in range(1,201):
-    if i%2!=0:
-        print(i)
+# 1. Write a program to print all natural numbers from 1 to n. – using while loop
+num=int(input("enter a num "))
+i=1
+while(i<=num):
+    print(i)
+    i+=1
